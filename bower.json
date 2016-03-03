@@ -1,0 +1,27 @@
+{
+  "name": "WebShop",
+  "homepage": "https://github.com/kristophercowley/WebShop",
+  "authors": [
+    "Kristopher Cowley <kristopherleecowley@gmail.com>"
+  ],
+  "description": "Web Store",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "bootstrap": "^3.3.6",
+    "angular-ui-router": "^0.2.18",
+    "firebase": "^2.4.1",
+    "angularfire": "^1.1.4",
+    "ui-bootstrap": "angular-ui-bootstrap#^1.2.2",
+    "angular-bootstrap": "^1.2.2"
+  }
+}
