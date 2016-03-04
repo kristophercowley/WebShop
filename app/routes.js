@@ -20,4 +20,10 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             controller: 'DesignController',
             controllerAs: 'dc'
         })
+        .state('slides', {
+            url: '/slides',
+            templateUrl: '/app/templates/slides.html',
+            controller: 'SlidesController',
+            controllerAs: 'sc'
+        })
 })
